@@ -36,6 +36,6 @@ data:extend({
         },
         
         result = robot.name,
-        result_count = 2
+        result_count = settings.startup['janky-bots-per-craft'].value
     }
 })
