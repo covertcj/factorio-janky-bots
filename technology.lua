@@ -86,7 +86,7 @@ data:extend({
         effects = {
             {
                 type = 'nothing',
-                effect_description = {'technology-effect.janky-robot-death-percentage'}
+                effect_description = {'technology-effect.janky-robot-death-percentage', settings.startup['janky-bots-breakdown-research-decrement'].value}
             }
         },
         
@@ -109,7 +109,7 @@ data:extend({
         effects = {
             {
                 type = 'nothing',
-                effect_description = {'technology-effect.janky-robot-death-percentage'}
+                effect_description = {'technology-effect.janky-robot-death-percentage', settings.startup['janky-bots-breakdown-research-decrement'].value}
             }
         },
         
@@ -134,7 +134,7 @@ data:extend({
         effects = {
             {
                 type = 'nothing',
-                effect_description = {'technology-effect.janky-robot-death-percentage'}
+                effect_description = {'technology-effect.janky-robot-death-percentage', settings.startup['janky-bots-breakdown-research-decrement'].value}
             }
         },
         
@@ -160,7 +160,7 @@ data:extend({
         effects = {
             {
                 type = 'nothing',
-                effect_description = {'technology-effect.janky-robot-death-percentage'}
+                effect_description = {'technology-effect.janky-robot-death-percentage', settings.startup['janky-bots-breakdown-research-decrement'].value}
             }
         },
         
