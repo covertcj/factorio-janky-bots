@@ -66,7 +66,7 @@ data:extend({
         prerequisites = {'janky-robot-heavy-armor'},
         
         unit = {
-            count = 150,
+            count = 100,
             time = 25,
             ingredients = {
                 {'automation-science-pack', 1},
@@ -93,7 +93,7 @@ data:extend({
         prerequisites = {'janky-robot-light-armor'},
         
         unit = {
-            count = 100,
+            count = 50,
             time = 15,
             ingredients = {{'automation-science-pack', 1}}
         }
@@ -116,7 +116,7 @@ data:extend({
         prerequisites = {'janky-robot-death-percentage-1'},
         
         unit = {
-            count = 150,
+            count = 100,
             time = 20,
             ingredients = {
                 {'automation-science-pack', 1},
@@ -141,7 +141,7 @@ data:extend({
         prerequisites = {'janky-robot-death-percentage-2', 'janky-robot-heavy-armor'},
         
         unit = {
-            count = 150,
+            count = 100,
             time = 25,
             ingredients = {
                 {'automation-science-pack', 1},
@@ -167,7 +167,7 @@ data:extend({
         prerequisites = {'janky-robot-death-percentage-3'},
         
         unit = {
-            count = 200,
+            count = 150,
             time = 30,
             ingredients = {
                 {'automation-science-pack', 1},

@@ -1,3 +1,5 @@
+local ModSupport = require('mod-support')
+
 local light_armor = table.deepcopy(data.raw.armor['light-armor'])
 light_armor.name = 'janky-robot-light-armor'
 light_armor.icon = '__JankyBots__/graphics/icons/janky-light-armor.png'
@@ -36,7 +38,7 @@ data:extend({
         ingredients = {
             {'light-armor', 1},
             {'iron-gear-wheel', 10},
-            {'electronic-circuit', 10}
+            {ModSupport.circuit, 10}
         },
     },
     {
@@ -49,7 +51,7 @@ data:extend({
         ingredients = {
             {'heavy-armor', 1},
             {'iron-gear-wheel', 20},
-            {'electronic-circuit', 20}
+            {ModSupport.circuit, 20}
         },
     }
 })

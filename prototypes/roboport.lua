@@ -1,3 +1,5 @@
+local ModSupport = require('mod-support')
+
 local roboport = table.deepcopy(data.raw['roboport-equipment']['personal-roboport-equipment'])
 roboport.name = 'janky-personal-roboport-equipment'
 roboport.take_result = roboport.name
@@ -45,7 +47,7 @@ data:extend({
         enabled = false,
         energy_required = 10,
         ingredients = {
-            {'electronic-circuit', 10},
+            {ModSupport.circuit, 10},
             {'iron-plate', 50},
             {'iron-gear-wheel', 25}
         },

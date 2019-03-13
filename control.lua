@@ -1,8 +1,6 @@
 function init(ev)
     global.mined_janky_bots = {}
-    global.janky_bot_initial_death_chance = 40
-    global.janky_bot_death_chance = global.janky_bot_initial_death_chance
-    global.janky_bot_death_chance_decrement = 5
+    global.janky_bot_death_chance = settings.startup['janky-bots-breakdown-percent'].value
 end
 
 function on_player_created(ev)

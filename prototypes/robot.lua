@@ -1,3 +1,5 @@
+local ModSupport = require('mod-support')
+
 local robot = table.deepcopy(data.raw['construction-robot']['construction-robot'])
 robot.name = 'janky-construction-robot'
 robot.icon = '__JankyBots__/graphics/icons/janky-construction-robot.png'
@@ -32,7 +34,7 @@ data:extend({
         ingredients = {
             {'repair-pack', 1},
             {'coal', 1},
-            {'electronic-circuit', 1}
+            {ModSupport.circuit, 1}
         },
         
         result = robot.name,
